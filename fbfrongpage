@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - log in or sign up</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="fbfavicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header start -->
+     <header class="header">
+       <div class="container">
+         <div class="logoarea">
+           <img src="logo.png">
+         </div>
+
+         <div class="loginarea">
+            <form action="#" method="POST">
+              <div class="email">
+                <label for="email">Email or phone</label>
+                <input type="text" id="email">
+              </div>
+              <div class="password">
+                <label for="pass">Password</label>
+                <input type="password" id="pass">
+                <a href="#">Forgotten account?</a> 
+              </div>
+              <div class="login">
+                <input type="submit" value="Log in">
+              </div>
+              
+               
+            </form>
+         </div>
+       </div>
+     </header>
+     <!-- Header End -->
+
+     <!--Sign up area Start -->
+
+      <section class="signup-area">
+        <div class="container">
+          <div class="left-area">
+            <p>Facebook helps you connect and share with  the <br>people in your life.</p>
+            <img src="image1.png">
+          </div>
+          <div class="right-area">
+            <h1>Create an account</h1>
+            <h4>It's quick and easy.</h4>
+            <form action="#" method="POST">
+              <div class="fullname">
+                <div class="firstname">
+                  <input type="text" placeholder="First name">
+                </div>
+                <div class="surname">
+                  <input type="text" placeholder="Surname">
+                </div>
+              </div>
+                <input type="text" placeholder="Mobie number or email address">
+                <input type="password" placeholder="New password">
+                <div class="birthday">
+                  <h4>Birthday</h4>
+                  <div class="birth-date">
+                    <select>
+                      <option value="day">Day</option>
+                      <option value="day">1</option>
+                      <option value="day">2</option>
+                      <option value="day">3</option>
+                      <option value="day">4</option>
+                      <option value="day">5</option>
+                      <option value="day">6</option>
+                      <option value="day">7</option>
+                      <option value="day">8</option>
+                      <option value="day">9</option>
+                      <option value="day">10</option>
+                      <option value="day">11</option>
+                      <option value="day">12</option>
+                      <option value="day">13</option>
+                      <option value="day">14</option>
+                      <option value="day">15</option>
+                      <option value="day">16</option>
+                      <option value="day">17</option>
+                      <option value="day">18</option>
+                      <option value="day" selected>19</option>
+                      <option value="day">20</option>
+                      <option value="day">21</option>
+                      <option value="day">22</option>
+                      <option value="day">23</option>
+                      <option value="day">24</option>
+                      <option value="day">25</option>
+                      <option value="day">26</option>
+                      <option value="day">27</option>
+                      <option value="day">28</option>
+                      <option value="day">29</option>
+                      <option value="day">30</option>
+                      <option value="day">31</option>
+                    </select>
+                    <select>
+                      <option value="month">Month</option>
+                      <option value="month">January</option>
+                      <option value="month">February</option>
+                      <option value="month">March</option>
+                      <option value="month" selected>April</option>
+                      <option value="month">May</option>
+                      <option value="month">June</option>
+                      <option value="month">July</option>
+                      <option value="month">August</option>
+                      <option value="month">September</option>
+                      <option value="month">October</option>
+                      <option value="month">November</option>
+                      <option value="month">December</option>
+                      
+                      
+                    </select>
+                    <select>
+                      <option value="year">Year</option>
+                      <option value="year">2000</option>
+                      <option value="year">2001</option>
+                      <option value="year">2002</option>
+                      <option value="year">2003</option>
+                      <option value="year">2004</option>
+                      <option value="year" selected>2005</option>
+                      <option value="year">2006</option>
+                      <option value="year">2007</option>
+                      <option value="year">2008</option>
+                      <option value="year">2009</option>
+                      <option value="year">2010</option>
+                      <option value="year">2011</option>
+                      <option value="year">2012</option>
+                      <option value="year">2013</option>
+                      <option value="year">2014</option>
+                      <option value="year">2015</option>
+                      <option value="year">2016</option>
+                      <option value="year">2017</option>
+                      <option value="year">2018</option>
+                      <option value="year">2019</option>
+                      <option value="year">2020</option>
+
+                    </select>
+                  </div>
+                  <div class="birth-link">
+                    <a href="#">Why do need my birth date?</a>
+                  </div>
+                </div>
+                <div class="gender">
+                   <p>Gender</p>
+                  <input id="female" name="gender" type="radio">
+                  <label for="female" >Female</label>
+                  <input id="male" name="gender" type="radio">
+                  <label for="male" >Male</label>
+                </div>
+                <div class="text-box">
+                  <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookie Policy.</a> You may receive SMS notifications from us and can opt out at any time.</p>
+                </div>
+                <div class="btn">
+                  <input type="submit" value="Sign Up">
+                </div>
+            </form>
+            <span><a href="#">Create a Page</a> for a celebrity, band or business.</span>
+          </div>
+        </div>
+      </section>
+
+     <!--Sign up area End -->
+
+     <!-- Footer Area Start -->
+
+     <div class="footer-area">
+       <div class="container">
+         <div class="top">
+           <ul>
+             <li><a href="#">English(UK)</a></li>
+             <li><a href="#">বাংলা</a></li>
+             <li><a href="#">অসমীয়া </a></li>
+             <li><a href="#">हिन्दी </a></li>
+             <li><a href="#">Bahasa Indonesia</a></li>
+             <li><a href="#">नेपाली</a></li>
+             <li><a href="#">中文(简体) </a></li>
+             <li><a href="#">العربية  </a></li>
+             <li><a href="#">Bahasa Melayu</a></li>
+             <li><a href="#">Español  </a></li>
+             <li><a href="#">Português (Brasil) </a></li>
+             <li><a href="#">+</a></li>
+           </ul>
+         </div>
+         <hr class="horizontal">
+         <div class="middle">
+            <ul>
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Log In</a></li>
+              <li><a href="#">Messenger</a></li>
+              <li><a href="#">Facebook Lite</a></li>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Page Categories</a></li>
+              <li><a href="#">Places</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Facebook Pay</a></li>
+              <li><a href="#">Groups</a></li>
+              <li><a href="#">Oculus</a></li>
+              <li><a href="#">Portal</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Local</a></li>
+              <li><a href="#">Fundraisers</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Create ad</a></li>
+              <li><a href="#">Create Page</a></li>
+              <li><a href="#"Developers></a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">AddChoices</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+         </div>
+         <div class="bottom">
+           <p>Facebook &copy; 2020</p>
+         </div>
+       </div>
+     </div>
+
+     <!-- Footer Area enc -->
+</body>
+</html>
